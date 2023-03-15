@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player{
+    height: 450px;
+    max-width: 768px;
+    min-width: 320px;
+    margin: 100px auto;
+    border: 1px solid black;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgb(131,58,180);
+    background: linear-gradient(50deg, rgba(131,58,180,1) 0%, rgb(29, 253, 175) 50%, rgba(252,176,69,1) 100%);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+.progress-container {
+    height: 10px;
+    margin: 10px;
+    background-color: rgb(169, 173, 174);  
+    
+}
+
+.progress {
+    background-color: rgb(211, 211, 1);
+    width: 0%;
+    height: 100%;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+   
+}
+
+.controls button {
+    border: none;
+    margin-top: 10px;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.cover {
+  width: 180px;
+  display: block;
+  margin: auto;
+}
+
+.songs{
+    list-style: none;
+}
+
+.songs li {
+    margin-bottom: 5px;
+}
+.songs a {
+ text-decoration: none;
+ color: rgb(255, 252, 252); 
+}
+
+.songs a.active {
+    border: 2px solid rgb(211, 211, 1);
+    padding: 2px;    
+    font-weight: 700;
+}
+
+
